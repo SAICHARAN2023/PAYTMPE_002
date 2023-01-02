@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="422.363" tests="32" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="83.629" tests="95" errors="0" skipped="87" failures="4">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="17.0.5+9-LTS-191"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17.0.5\bin"/>
-    <property name="maven.multiModuleProjectDirectory" value="C:\Users\u\Desktop\CGLIA_SOLUTIONS\sample"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\u\Desktop\PAYTMPE\PAYTMPE_001"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -15,7 +15,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="C:\Users\u\Desktop\CGLIA_SOLUTIONS\sample"/>
+    <property name="user.dir" value="C:\Users\u\Desktop\PAYTMPE\PAYTMPE_001"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="java.runtime.version" value="17.0.5+9-LTS-191"/>
     <property name="os.arch" value="amd64"/>
@@ -60,36 +60,343 @@
     <property name="sun.stdout.encoding" value="cp437"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="SUPPORTTICKET" classname="sample.DASHBOARD_01" time="9.581"/>
-  <testcase name="SUPPORTTICKET" classname="sample.DASHBOARD_01" time="9.724"/>
-  <testcase name="SUPPORTTICKET" classname="sample.DASHBOARD_01" time="9.244"/>
-  <testcase name="SUPPORTTICKET" classname="sample.DASHBOARD_01" time="10.132"/>
-  <testcase name="SUPPORTTICKET" classname="sample.DASHBOARD_01" time="8.303"/>
-  <testcase name="SUPPORTTICKET" classname="sample.DASHBOARD_01" time="8.03"/>
-  <testcase name="SUPPORTTICKET" classname="sample.DASHBOARD_01" time="8.519"/>
-  <testcase name="SUPPORTTICKET" classname="sample.DASHBOARD_01" time="10.055"/>
-  <testcase name="SENDMONEY" classname="sample.SEND_MONEY" time="4.156"/>
-  <testcase name="SENDMONEY" classname="sample.SEND_MONEY" time="4.109"/>
-  <testcase name="SENDMONEY" classname="sample.SEND_MONEY" time="4.953"/>
-  <testcase name="SENDMONEY" classname="sample.SEND_MONEY" time="4.247"/>
-  <testcase name="SENDMONEY" classname="sample.SEND_MONEY" time="4.256"/>
-  <testcase name="SENDMONEY" classname="sample.SEND_MONEY" time="4.421"/>
-  <testcase name="SENDMONEY" classname="sample.SEND_MONEY" time="3.978"/>
-  <testcase name="SENDMONEY" classname="sample.SEND_MONEY" time="3.798"/>
-  <testcase name="EXCHANGEMONEY" classname="sample.EXCHANGE_MONEY" time="4.133"/>
-  <testcase name="EXCHANGEMONEY" classname="sample.EXCHANGE_MONEY" time="4.796"/>
-  <testcase name="EXCHANGEMONEY" classname="sample.EXCHANGE_MONEY" time="4.482"/>
-  <testcase name="EXCHANGEMONEY" classname="sample.EXCHANGE_MONEY" time="3.85"/>
-  <testcase name="EXCHANGEMONEY" classname="sample.EXCHANGE_MONEY" time="4.06"/>
-  <testcase name="EXCHANGEMONEY" classname="sample.EXCHANGE_MONEY" time="4.101"/>
-  <testcase name="EXCHANGEMONEY" classname="sample.EXCHANGE_MONEY" time="3.83"/>
-  <testcase name="EXCHANGEMONEY" classname="sample.EXCHANGE_MONEY" time="4.348"/>
-  <testcase name="WIRETRANS" classname="sample.WIRE_TRANSFER" time="3.465"/>
-  <testcase name="WIRETRANS" classname="sample.WIRE_TRANSFER" time="3.509"/>
-  <testcase name="WIRETRANS" classname="sample.WIRE_TRANSFER" time="3.636"/>
-  <testcase name="WIRETRANS" classname="sample.WIRE_TRANSFER" time="3.403"/>
-  <testcase name="WIRETRANS" classname="sample.WIRE_TRANSFER" time="3.229"/>
-  <testcase name="WIRETRANS" classname="sample.WIRE_TRANSFER" time="4.366"/>
-  <testcase name="WIRETRANS" classname="sample.WIRE_TRANSFER" time="3.551"/>
-  <testcase name="WIRETRANS" classname="sample.WIRE_TRANSFER" time="3.011"/>
+  <testcase name="SUPPORTTICKET" classname="sample.DASHBOARD_01" time="8.664"/>
+  <testcase name="SUPPORTTICKET" classname="sample.DASHBOARD_01" time="0">
+    <skipped message="element click intercepted: Element &lt;a class=&quot;nav-link dropdown-toggle&quot; id=&quot;userDropdown&quot; href=&quot;#&quot; role=&quot;button&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;...&lt;/a&gt; is not clickable at point (1231, 33). Other element would receive the click: &lt;div id=&quot;preloader&quot; style=&quot;opacity: 1;&quot;&gt;&lt;/div&gt;&#10;  (Session info: MicrosoftEdge=108.0.1462.54)&#10;Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [04693afe81a99049b92470f82b650a51, clickElement {id=b6df7f14-01bb-4d75-9170-443f052a05b7}]&#10;Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 108.0.1462.54, ms:edgeOptions: {debuggerAddress: localhost:59016}, msedge: {msedgedriverVersion: 108.0.1462.54 (c2998c8c6617..., userDataDir: C:\Users\u\AppData\Local\Te...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59016/devtoo..., se:cdpVersion: 108.0.1462.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[EdgeDriver: msedge on WINDOWS (04693afe81a99049b92470f82b650a51)] -&gt; xpath: (//a[@data-toggle=&apos;dropdown&apos;])[2]]&#10;Session ID: 04693afe81a99049b92470f82b650a51"/>
+  </testcase>
+  <testcase name="SUPPORTTICKET" classname="sample.DASHBOARD_01" time="0">
+    <skipped message="element click intercepted: Element &lt;a class=&quot;nav-link dropdown-toggle&quot; id=&quot;userDropdown&quot; href=&quot;#&quot; role=&quot;button&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;...&lt;/a&gt; is not clickable at point (1231, 33). Other element would receive the click: &lt;div id=&quot;preloader&quot; style=&quot;opacity: 1;&quot;&gt;&lt;/div&gt;&#10;  (Session info: MicrosoftEdge=108.0.1462.54)&#10;Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [04693afe81a99049b92470f82b650a51, clickElement {id=b6df7f14-01bb-4d75-9170-443f052a05b7}]&#10;Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 108.0.1462.54, ms:edgeOptions: {debuggerAddress: localhost:59016}, msedge: {msedgedriverVersion: 108.0.1462.54 (c2998c8c6617..., userDataDir: C:\Users\u\AppData\Local\Te...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59016/devtoo..., se:cdpVersion: 108.0.1462.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[EdgeDriver: msedge on WINDOWS (04693afe81a99049b92470f82b650a51)] -&gt; xpath: (//a[@data-toggle=&apos;dropdown&apos;])[2]]&#10;Session ID: 04693afe81a99049b92470f82b650a51"/>
+  </testcase>
+  <testcase name="SUPPORTTICKET" classname="sample.DASHBOARD_01" time="0">
+    <skipped message="element click intercepted: Element &lt;a class=&quot;nav-link dropdown-toggle&quot; id=&quot;userDropdown&quot; href=&quot;#&quot; role=&quot;button&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;...&lt;/a&gt; is not clickable at point (1231, 33). Other element would receive the click: &lt;div id=&quot;preloader&quot; style=&quot;opacity: 1;&quot;&gt;&lt;/div&gt;&#10;  (Session info: MicrosoftEdge=108.0.1462.54)&#10;Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [04693afe81a99049b92470f82b650a51, clickElement {id=b6df7f14-01bb-4d75-9170-443f052a05b7}]&#10;Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 108.0.1462.54, ms:edgeOptions: {debuggerAddress: localhost:59016}, msedge: {msedgedriverVersion: 108.0.1462.54 (c2998c8c6617..., userDataDir: C:\Users\u\AppData\Local\Te...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59016/devtoo..., se:cdpVersion: 108.0.1462.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[EdgeDriver: msedge on WINDOWS (04693afe81a99049b92470f82b650a51)] -&gt; xpath: (//a[@data-toggle=&apos;dropdown&apos;])[2]]&#10;Session ID: 04693afe81a99049b92470f82b650a51"/>
+  </testcase>
+  <testcase name="SUPPORTTICKET" classname="sample.DASHBOARD_01" time="0">
+    <skipped message="element click intercepted: Element &lt;a class=&quot;nav-link dropdown-toggle&quot; id=&quot;userDropdown&quot; href=&quot;#&quot; role=&quot;button&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;...&lt;/a&gt; is not clickable at point (1231, 33). Other element would receive the click: &lt;div id=&quot;preloader&quot; style=&quot;opacity: 1;&quot;&gt;&lt;/div&gt;&#10;  (Session info: MicrosoftEdge=108.0.1462.54)&#10;Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [04693afe81a99049b92470f82b650a51, clickElement {id=b6df7f14-01bb-4d75-9170-443f052a05b7}]&#10;Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 108.0.1462.54, ms:edgeOptions: {debuggerAddress: localhost:59016}, msedge: {msedgedriverVersion: 108.0.1462.54 (c2998c8c6617..., userDataDir: C:\Users\u\AppData\Local\Te...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59016/devtoo..., se:cdpVersion: 108.0.1462.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[EdgeDriver: msedge on WINDOWS (04693afe81a99049b92470f82b650a51)] -&gt; xpath: (//a[@data-toggle=&apos;dropdown&apos;])[2]]&#10;Session ID: 04693afe81a99049b92470f82b650a51"/>
+  </testcase>
+  <testcase name="SUPPORTTICKET" classname="sample.DASHBOARD_01" time="0">
+    <skipped message="element click intercepted: Element &lt;a class=&quot;nav-link dropdown-toggle&quot; id=&quot;userDropdown&quot; href=&quot;#&quot; role=&quot;button&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;...&lt;/a&gt; is not clickable at point (1231, 33). Other element would receive the click: &lt;div id=&quot;preloader&quot; style=&quot;opacity: 1;&quot;&gt;&lt;/div&gt;&#10;  (Session info: MicrosoftEdge=108.0.1462.54)&#10;Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [04693afe81a99049b92470f82b650a51, clickElement {id=b6df7f14-01bb-4d75-9170-443f052a05b7}]&#10;Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 108.0.1462.54, ms:edgeOptions: {debuggerAddress: localhost:59016}, msedge: {msedgedriverVersion: 108.0.1462.54 (c2998c8c6617..., userDataDir: C:\Users\u\AppData\Local\Te...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59016/devtoo..., se:cdpVersion: 108.0.1462.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[EdgeDriver: msedge on WINDOWS (04693afe81a99049b92470f82b650a51)] -&gt; xpath: (//a[@data-toggle=&apos;dropdown&apos;])[2]]&#10;Session ID: 04693afe81a99049b92470f82b650a51"/>
+  </testcase>
+  <testcase name="SUPPORTTICKET" classname="sample.DASHBOARD_01" time="0">
+    <skipped message="element click intercepted: Element &lt;a class=&quot;nav-link dropdown-toggle&quot; id=&quot;userDropdown&quot; href=&quot;#&quot; role=&quot;button&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;...&lt;/a&gt; is not clickable at point (1231, 33). Other element would receive the click: &lt;div id=&quot;preloader&quot; style=&quot;opacity: 1;&quot;&gt;&lt;/div&gt;&#10;  (Session info: MicrosoftEdge=108.0.1462.54)&#10;Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [04693afe81a99049b92470f82b650a51, clickElement {id=b6df7f14-01bb-4d75-9170-443f052a05b7}]&#10;Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 108.0.1462.54, ms:edgeOptions: {debuggerAddress: localhost:59016}, msedge: {msedgedriverVersion: 108.0.1462.54 (c2998c8c6617..., userDataDir: C:\Users\u\AppData\Local\Te...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59016/devtoo..., se:cdpVersion: 108.0.1462.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[EdgeDriver: msedge on WINDOWS (04693afe81a99049b92470f82b650a51)] -&gt; xpath: (//a[@data-toggle=&apos;dropdown&apos;])[2]]&#10;Session ID: 04693afe81a99049b92470f82b650a51"/>
+  </testcase>
+  <testcase name="SUPPORTTICKET" classname="sample.DASHBOARD_01" time="0">
+    <skipped message="element click intercepted: Element &lt;a class=&quot;nav-link dropdown-toggle&quot; id=&quot;userDropdown&quot; href=&quot;#&quot; role=&quot;button&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;...&lt;/a&gt; is not clickable at point (1231, 33). Other element would receive the click: &lt;div id=&quot;preloader&quot; style=&quot;opacity: 1;&quot;&gt;&lt;/div&gt;&#10;  (Session info: MicrosoftEdge=108.0.1462.54)&#10;Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [04693afe81a99049b92470f82b650a51, clickElement {id=b6df7f14-01bb-4d75-9170-443f052a05b7}]&#10;Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 108.0.1462.54, ms:edgeOptions: {debuggerAddress: localhost:59016}, msedge: {msedgedriverVersion: 108.0.1462.54 (c2998c8c6617..., userDataDir: C:\Users\u\AppData\Local\Te...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59016/devtoo..., se:cdpVersion: 108.0.1462.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[EdgeDriver: msedge on WINDOWS (04693afe81a99049b92470f82b650a51)] -&gt; xpath: (//a[@data-toggle=&apos;dropdown&apos;])[2]]&#10;Session ID: 04693afe81a99049b92470f82b650a51"/>
+  </testcase>
+  <testcase name="logout" classname="sample.DASHBOARD_01" time="9.853">
+    <failure message="element click intercepted: Element &lt;a class=&quot;nav-link dropdown-toggle&quot; id=&quot;userDropdown&quot; href=&quot;#&quot; role=&quot;button&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;...&lt;/a&gt; is not clickable at point (1231, 33). Other element would receive the click: &lt;div id=&quot;preloader&quot; style=&quot;opacity: 1;&quot;&gt;&lt;/div&gt;&#10;  (Session info: MicrosoftEdge=108.0.1462.54)&#10;Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [04693afe81a99049b92470f82b650a51, clickElement {id=b6df7f14-01bb-4d75-9170-443f052a05b7}]&#10;Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 108.0.1462.54, ms:edgeOptions: {debuggerAddress: localhost:59016}, msedge: {msedgedriverVersion: 108.0.1462.54 (c2998c8c6617..., userDataDir: C:\Users\u\AppData\Local\Te...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59016/devtoo..., se:cdpVersion: 108.0.1462.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[EdgeDriver: msedge on WINDOWS (04693afe81a99049b92470f82b650a51)] -&gt; xpath: (//a[@data-toggle=&apos;dropdown&apos;])[2]]&#10;Session ID: 04693afe81a99049b92470f82b650a51" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a class="nav-link dropdown-toggle" id="userDropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">...</a> is not clickable at point (1231, 33). Other element would receive the click: <div id="preloader" style="opacity: 1;"></div>
+  (Session info: MicrosoftEdge=108.0.1462.54)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [04693afe81a99049b92470f82b650a51, clickElement {id=b6df7f14-01bb-4d75-9170-443f052a05b7}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 108.0.1462.54, ms:edgeOptions: {debuggerAddress: localhost:59016}, msedge: {msedgedriverVersion: 108.0.1462.54 (c2998c8c6617..., userDataDir: C:\Users\u\AppData\Local\Te...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59016/devtoo..., se:cdpVersion: 108.0.1462.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: msedge on WINDOWS (04693afe81a99049b92470f82b650a51)] -> xpath: (//a[@data-toggle='dropdown'])[2]]
+Session ID: 04693afe81a99049b92470f82b650a51
+]]></failure>
+  </testcase>
+  <testcase name="logout" classname="sample.DASHBOARD_01" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="logout" classname="sample.DASHBOARD_01" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="logout" classname="sample.DASHBOARD_01" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="logout" classname="sample.DASHBOARD_01" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="logout" classname="sample.DASHBOARD_01" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="logout" classname="sample.DASHBOARD_01" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="logout" classname="sample.DASHBOARD_01" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="login" classname="sample.DASHBOARD_01" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="login" classname="sample.DASHBOARD_01" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="login" classname="sample.DASHBOARD_01" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="login" classname="sample.DASHBOARD_01" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="login" classname="sample.DASHBOARD_01" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="login" classname="sample.DASHBOARD_01" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="login" classname="sample.DASHBOARD_01" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Teardown" classname="sample.DASHBOARD_01" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="SENDMONEY" classname="sample.SEND_MONEY" time="3.672"/>
+  <testcase name="SENDMONEY" classname="sample.SEND_MONEY" time="5.26"/>
+  <testcase name="SENDMONEY" classname="sample.SEND_MONEY" time="3.993"/>
+  <testcase name="SENDMONEY" classname="sample.SEND_MONEY" time="0">
+    <skipped message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: MicrosoftEdge=108.0.1462.54)&#10;Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [11bcfbbb533715ba7ba85cb4d1287e99, findElement {using=xpath, value=//a[.=&apos; Sign In&apos;]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 108.0.1462.54, ms:edgeOptions: {debuggerAddress: localhost:59058}, msedge: {msedgedriverVersion: 108.0.1462.54 (c2998c8c6617..., userDataDir: C:\Users\u\AppData\Local\Te...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59058/devtoo..., se:cdpVersion: 108.0.1462.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 11bcfbbb533715ba7ba85cb4d1287e99"/>
+  </testcase>
+  <testcase name="SENDMONEY" classname="sample.SEND_MONEY" time="0">
+    <skipped message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: MicrosoftEdge=108.0.1462.54)&#10;Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [11bcfbbb533715ba7ba85cb4d1287e99, findElement {using=xpath, value=//a[.=&apos; Sign In&apos;]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 108.0.1462.54, ms:edgeOptions: {debuggerAddress: localhost:59058}, msedge: {msedgedriverVersion: 108.0.1462.54 (c2998c8c6617..., userDataDir: C:\Users\u\AppData\Local\Te...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59058/devtoo..., se:cdpVersion: 108.0.1462.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 11bcfbbb533715ba7ba85cb4d1287e99"/>
+  </testcase>
+  <testcase name="SENDMONEY" classname="sample.SEND_MONEY" time="0">
+    <skipped message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: MicrosoftEdge=108.0.1462.54)&#10;Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [11bcfbbb533715ba7ba85cb4d1287e99, findElement {using=xpath, value=//a[.=&apos; Sign In&apos;]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 108.0.1462.54, ms:edgeOptions: {debuggerAddress: localhost:59058}, msedge: {msedgedriverVersion: 108.0.1462.54 (c2998c8c6617..., userDataDir: C:\Users\u\AppData\Local\Te...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59058/devtoo..., se:cdpVersion: 108.0.1462.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 11bcfbbb533715ba7ba85cb4d1287e99"/>
+  </testcase>
+  <testcase name="SENDMONEY" classname="sample.SEND_MONEY" time="0">
+    <skipped message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: MicrosoftEdge=108.0.1462.54)&#10;Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [11bcfbbb533715ba7ba85cb4d1287e99, findElement {using=xpath, value=//a[.=&apos; Sign In&apos;]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 108.0.1462.54, ms:edgeOptions: {debuggerAddress: localhost:59058}, msedge: {msedgedriverVersion: 108.0.1462.54 (c2998c8c6617..., userDataDir: C:\Users\u\AppData\Local\Te...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59058/devtoo..., se:cdpVersion: 108.0.1462.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 11bcfbbb533715ba7ba85cb4d1287e99"/>
+  </testcase>
+  <testcase name="SENDMONEY" classname="sample.SEND_MONEY" time="0">
+    <skipped message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: MicrosoftEdge=108.0.1462.54)&#10;Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [11bcfbbb533715ba7ba85cb4d1287e99, findElement {using=xpath, value=//a[.=&apos; Sign In&apos;]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 108.0.1462.54, ms:edgeOptions: {debuggerAddress: localhost:59058}, msedge: {msedgedriverVersion: 108.0.1462.54 (c2998c8c6617..., userDataDir: C:\Users\u\AppData\Local\Te...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59058/devtoo..., se:cdpVersion: 108.0.1462.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 11bcfbbb533715ba7ba85cb4d1287e99"/>
+  </testcase>
+  <testcase name="login" classname="sample.SEND_MONEY" time="5.852">
+    <failure message="no such window: target window already closed&#10;from unknown error: web view not found&#10;  (Session info: MicrosoftEdge=108.0.1462.54)&#10;Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [11bcfbbb533715ba7ba85cb4d1287e99, findElement {using=xpath, value=//a[.=&apos; Sign In&apos;]}]&#10;Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 108.0.1462.54, ms:edgeOptions: {debuggerAddress: localhost:59058}, msedge: {msedgedriverVersion: 108.0.1462.54 (c2998c8c6617..., userDataDir: C:\Users\u\AppData\Local\Te...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59058/devtoo..., se:cdpVersion: 108.0.1462.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 11bcfbbb533715ba7ba85cb4d1287e99" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=108.0.1462.54)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [11bcfbbb533715ba7ba85cb4d1287e99, findElement {using=xpath, value=//a[.=' Sign In']}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 108.0.1462.54, ms:edgeOptions: {debuggerAddress: localhost:59058}, msedge: {msedgedriverVersion: 108.0.1462.54 (c2998c8c6617..., userDataDir: C:\Users\u\AppData\Local\Te...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59058/devtoo..., se:cdpVersion: 108.0.1462.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 11bcfbbb533715ba7ba85cb4d1287e99
+</failure>
+  </testcase>
+  <testcase name="login" classname="sample.SEND_MONEY" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="login" classname="sample.SEND_MONEY" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="login" classname="sample.SEND_MONEY" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="login" classname="sample.SEND_MONEY" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="logout" classname="sample.SEND_MONEY" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="logout" classname="sample.SEND_MONEY" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="logout" classname="sample.SEND_MONEY" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="logout" classname="sample.SEND_MONEY" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="logout" classname="sample.SEND_MONEY" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Teardown" classname="sample.SEND_MONEY" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setup" classname="sample.EXCHANGE_MONEY" time="8.005">
+    <failure message="Error communicating with the remote browser. It may have died.&#10;Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [053a492d140a6a8a399c04b6a8fcfa3c, get {url=https://paytmpe.qagithub.xyz/}]&#10;Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 108.0.1462.54, ms:edgeOptions: {debuggerAddress: localhost:59112}, msedge: {msedgedriverVersion: 108.0.1462.54 (c2998c8c6617..., userDataDir: C:\Users\u\AppData\Local\Te...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59112/devtoo..., se:cdpVersion: 108.0.1462.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 053a492d140a6a8a399c04b6a8fcfa3c" type="org.openqa.selenium.remote.UnreachableBrowserException">org.openqa.selenium.remote.UnreachableBrowserException: 
+Error communicating with the remote browser. It may have died.
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [053a492d140a6a8a399c04b6a8fcfa3c, get {url=https://paytmpe.qagithub.xyz/}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 108.0.1462.54, ms:edgeOptions: {debuggerAddress: localhost:59112}, msedge: {msedgedriverVersion: 108.0.1462.54 (c2998c8c6617..., userDataDir: C:\Users\u\AppData\Local\Te...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59112/devtoo..., se:cdpVersion: 108.0.1462.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 053a492d140a6a8a399c04b6a8fcfa3c
+Caused by: java.io.UncheckedIOException: java.net.SocketException: Connection reset
+Caused by: java.net.SocketException: Connection reset
+</failure>
+    <system-err><![CDATA[Starting Microsoft Edge WebDriver 108.0.1462.54 (c2998c8c661724d797c22f48cf555a2bef5029ee) on port 13248
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
+
+Only local connections are allowed.
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+
+Microsoft Edge WebDriver was started successfully.
+Jan 02, 2023 10:36:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 108, so returning the closest version found: 107
+[1672679206.168][WARNING]: Processing messages while being disconnected
+]]></system-err>
+  </testcase>
+  <testcase name="login" classname="sample.EXCHANGE_MONEY" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="login" classname="sample.EXCHANGE_MONEY" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="login" classname="sample.EXCHANGE_MONEY" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="login" classname="sample.EXCHANGE_MONEY" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="login" classname="sample.EXCHANGE_MONEY" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="login" classname="sample.EXCHANGE_MONEY" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="login" classname="sample.EXCHANGE_MONEY" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="login" classname="sample.EXCHANGE_MONEY" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="EXCHANGEMONEY" classname="sample.EXCHANGE_MONEY" time="0">
+    <skipped message="Error communicating with the remote browser. It may have died.&#10;Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [053a492d140a6a8a399c04b6a8fcfa3c, get {url=https://paytmpe.qagithub.xyz/}]&#10;Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 108.0.1462.54, ms:edgeOptions: {debuggerAddress: localhost:59112}, msedge: {msedgedriverVersion: 108.0.1462.54 (c2998c8c6617..., userDataDir: C:\Users\u\AppData\Local\Te...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59112/devtoo..., se:cdpVersion: 108.0.1462.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 053a492d140a6a8a399c04b6a8fcfa3c"/>
+  </testcase>
+  <testcase name="EXCHANGEMONEY" classname="sample.EXCHANGE_MONEY" time="0">
+    <skipped message="Error communicating with the remote browser. It may have died.&#10;Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [053a492d140a6a8a399c04b6a8fcfa3c, get {url=https://paytmpe.qagithub.xyz/}]&#10;Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 108.0.1462.54, ms:edgeOptions: {debuggerAddress: localhost:59112}, msedge: {msedgedriverVersion: 108.0.1462.54 (c2998c8c6617..., userDataDir: C:\Users\u\AppData\Local\Te...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59112/devtoo..., se:cdpVersion: 108.0.1462.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 053a492d140a6a8a399c04b6a8fcfa3c"/>
+  </testcase>
+  <testcase name="EXCHANGEMONEY" classname="sample.EXCHANGE_MONEY" time="0">
+    <skipped message="Error communicating with the remote browser. It may have died.&#10;Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [053a492d140a6a8a399c04b6a8fcfa3c, get {url=https://paytmpe.qagithub.xyz/}]&#10;Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 108.0.1462.54, ms:edgeOptions: {debuggerAddress: localhost:59112}, msedge: {msedgedriverVersion: 108.0.1462.54 (c2998c8c6617..., userDataDir: C:\Users\u\AppData\Local\Te...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59112/devtoo..., se:cdpVersion: 108.0.1462.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 053a492d140a6a8a399c04b6a8fcfa3c"/>
+  </testcase>
+  <testcase name="EXCHANGEMONEY" classname="sample.EXCHANGE_MONEY" time="0">
+    <skipped message="Error communicating with the remote browser. It may have died.&#10;Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [053a492d140a6a8a399c04b6a8fcfa3c, get {url=https://paytmpe.qagithub.xyz/}]&#10;Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 108.0.1462.54, ms:edgeOptions: {debuggerAddress: localhost:59112}, msedge: {msedgedriverVersion: 108.0.1462.54 (c2998c8c6617..., userDataDir: C:\Users\u\AppData\Local\Te...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59112/devtoo..., se:cdpVersion: 108.0.1462.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 053a492d140a6a8a399c04b6a8fcfa3c"/>
+  </testcase>
+  <testcase name="EXCHANGEMONEY" classname="sample.EXCHANGE_MONEY" time="0">
+    <skipped message="Error communicating with the remote browser. It may have died.&#10;Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [053a492d140a6a8a399c04b6a8fcfa3c, get {url=https://paytmpe.qagithub.xyz/}]&#10;Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 108.0.1462.54, ms:edgeOptions: {debuggerAddress: localhost:59112}, msedge: {msedgedriverVersion: 108.0.1462.54 (c2998c8c6617..., userDataDir: C:\Users\u\AppData\Local\Te...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59112/devtoo..., se:cdpVersion: 108.0.1462.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 053a492d140a6a8a399c04b6a8fcfa3c"/>
+  </testcase>
+  <testcase name="EXCHANGEMONEY" classname="sample.EXCHANGE_MONEY" time="0">
+    <skipped message="Error communicating with the remote browser. It may have died.&#10;Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [053a492d140a6a8a399c04b6a8fcfa3c, get {url=https://paytmpe.qagithub.xyz/}]&#10;Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 108.0.1462.54, ms:edgeOptions: {debuggerAddress: localhost:59112}, msedge: {msedgedriverVersion: 108.0.1462.54 (c2998c8c6617..., userDataDir: C:\Users\u\AppData\Local\Te...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59112/devtoo..., se:cdpVersion: 108.0.1462.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 053a492d140a6a8a399c04b6a8fcfa3c"/>
+  </testcase>
+  <testcase name="EXCHANGEMONEY" classname="sample.EXCHANGE_MONEY" time="0">
+    <skipped message="Error communicating with the remote browser. It may have died.&#10;Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [053a492d140a6a8a399c04b6a8fcfa3c, get {url=https://paytmpe.qagithub.xyz/}]&#10;Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 108.0.1462.54, ms:edgeOptions: {debuggerAddress: localhost:59112}, msedge: {msedgedriverVersion: 108.0.1462.54 (c2998c8c6617..., userDataDir: C:\Users\u\AppData\Local\Te...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59112/devtoo..., se:cdpVersion: 108.0.1462.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 053a492d140a6a8a399c04b6a8fcfa3c"/>
+  </testcase>
+  <testcase name="EXCHANGEMONEY" classname="sample.EXCHANGE_MONEY" time="0">
+    <skipped message="Error communicating with the remote browser. It may have died.&#10;Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [053a492d140a6a8a399c04b6a8fcfa3c, get {url=https://paytmpe.qagithub.xyz/}]&#10;Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 108.0.1462.54, ms:edgeOptions: {debuggerAddress: localhost:59112}, msedge: {msedgedriverVersion: 108.0.1462.54 (c2998c8c6617..., userDataDir: C:\Users\u\AppData\Local\Te...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59112/devtoo..., se:cdpVersion: 108.0.1462.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 053a492d140a6a8a399c04b6a8fcfa3c"/>
+  </testcase>
+  <testcase name="logout" classname="sample.EXCHANGE_MONEY" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="logout" classname="sample.EXCHANGE_MONEY" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="logout" classname="sample.EXCHANGE_MONEY" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="logout" classname="sample.EXCHANGE_MONEY" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="logout" classname="sample.EXCHANGE_MONEY" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="logout" classname="sample.EXCHANGE_MONEY" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="logout" classname="sample.EXCHANGE_MONEY" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="logout" classname="sample.EXCHANGE_MONEY" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Teardown" classname="sample.EXCHANGE_MONEY" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setup" classname="sample.WIRE_TRANSFER" time="6.895">
+    <failure message="Error communicating with the remote browser. It may have died.&#10;Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [cf5f509ed68e327a38a9db9c026ade50, get {url=https://paytmpe.qagithub.xyz/}]&#10;Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 108.0.1462.54, ms:edgeOptions: {debuggerAddress: localhost:59142}, msedge: {msedgedriverVersion: 108.0.1462.54 (c2998c8c6617..., userDataDir: C:\Users\u\AppData\Local\Te...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59142/devtoo..., se:cdpVersion: 108.0.1462.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: cf5f509ed68e327a38a9db9c026ade50" type="org.openqa.selenium.remote.UnreachableBrowserException">org.openqa.selenium.remote.UnreachableBrowserException: 
+Error communicating with the remote browser. It may have died.
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [cf5f509ed68e327a38a9db9c026ade50, get {url=https://paytmpe.qagithub.xyz/}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 108.0.1462.54, ms:edgeOptions: {debuggerAddress: localhost:59142}, msedge: {msedgedriverVersion: 108.0.1462.54 (c2998c8c6617..., userDataDir: C:\Users\u\AppData\Local\Te...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59142/devtoo..., se:cdpVersion: 108.0.1462.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cf5f509ed68e327a38a9db9c026ade50
+Caused by: java.io.UncheckedIOException: java.net.SocketException: Connection reset
+Caused by: java.net.SocketException: Connection reset
+</failure>
+    <system-err><![CDATA[Starting Microsoft Edge WebDriver 108.0.1462.54 (c2998c8c661724d797c22f48cf555a2bef5029ee) on port 2354
+To submit feedback, report a bug, or suggest new features, please visit https://github.com/MicrosoftEdge/EdgeWebDriver
+
+Only local connections are allowed.
+Please see https://aka.ms/WebDriverSecurity for suggestions on keeping Microsoft Edge WebDriver safe.
+
+Microsoft Edge WebDriver was started successfully.
+Jan 02, 2023 10:36:52 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 108, so returning the closest version found: 107
+[1672679214.662][WARNING]: Processing messages while being disconnected
+]]></system-err>
+  </testcase>
+  <testcase name="login" classname="sample.WIRE_TRANSFER" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="login" classname="sample.WIRE_TRANSFER" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="login" classname="sample.WIRE_TRANSFER" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="login" classname="sample.WIRE_TRANSFER" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="login" classname="sample.WIRE_TRANSFER" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="login" classname="sample.WIRE_TRANSFER" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="login" classname="sample.WIRE_TRANSFER" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="login" classname="sample.WIRE_TRANSFER" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="WIRETRANS" classname="sample.WIRE_TRANSFER" time="0">
+    <skipped message="Error communicating with the remote browser. It may have died.&#10;Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [cf5f509ed68e327a38a9db9c026ade50, get {url=https://paytmpe.qagithub.xyz/}]&#10;Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 108.0.1462.54, ms:edgeOptions: {debuggerAddress: localhost:59142}, msedge: {msedgedriverVersion: 108.0.1462.54 (c2998c8c6617..., userDataDir: C:\Users\u\AppData\Local\Te...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59142/devtoo..., se:cdpVersion: 108.0.1462.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: cf5f509ed68e327a38a9db9c026ade50"/>
+  </testcase>
+  <testcase name="WIRETRANS" classname="sample.WIRE_TRANSFER" time="0">
+    <skipped message="Error communicating with the remote browser. It may have died.&#10;Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [cf5f509ed68e327a38a9db9c026ade50, get {url=https://paytmpe.qagithub.xyz/}]&#10;Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 108.0.1462.54, ms:edgeOptions: {debuggerAddress: localhost:59142}, msedge: {msedgedriverVersion: 108.0.1462.54 (c2998c8c6617..., userDataDir: C:\Users\u\AppData\Local\Te...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59142/devtoo..., se:cdpVersion: 108.0.1462.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: cf5f509ed68e327a38a9db9c026ade50"/>
+  </testcase>
+  <testcase name="WIRETRANS" classname="sample.WIRE_TRANSFER" time="0">
+    <skipped message="Error communicating with the remote browser. It may have died.&#10;Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [cf5f509ed68e327a38a9db9c026ade50, get {url=https://paytmpe.qagithub.xyz/}]&#10;Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 108.0.1462.54, ms:edgeOptions: {debuggerAddress: localhost:59142}, msedge: {msedgedriverVersion: 108.0.1462.54 (c2998c8c6617..., userDataDir: C:\Users\u\AppData\Local\Te...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59142/devtoo..., se:cdpVersion: 108.0.1462.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: cf5f509ed68e327a38a9db9c026ade50"/>
+  </testcase>
+  <testcase name="WIRETRANS" classname="sample.WIRE_TRANSFER" time="0">
+    <skipped message="Error communicating with the remote browser. It may have died.&#10;Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [cf5f509ed68e327a38a9db9c026ade50, get {url=https://paytmpe.qagithub.xyz/}]&#10;Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 108.0.1462.54, ms:edgeOptions: {debuggerAddress: localhost:59142}, msedge: {msedgedriverVersion: 108.0.1462.54 (c2998c8c6617..., userDataDir: C:\Users\u\AppData\Local\Te...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59142/devtoo..., se:cdpVersion: 108.0.1462.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: cf5f509ed68e327a38a9db9c026ade50"/>
+  </testcase>
+  <testcase name="WIRETRANS" classname="sample.WIRE_TRANSFER" time="0">
+    <skipped message="Error communicating with the remote browser. It may have died.&#10;Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [cf5f509ed68e327a38a9db9c026ade50, get {url=https://paytmpe.qagithub.xyz/}]&#10;Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 108.0.1462.54, ms:edgeOptions: {debuggerAddress: localhost:59142}, msedge: {msedgedriverVersion: 108.0.1462.54 (c2998c8c6617..., userDataDir: C:\Users\u\AppData\Local\Te...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59142/devtoo..., se:cdpVersion: 108.0.1462.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: cf5f509ed68e327a38a9db9c026ade50"/>
+  </testcase>
+  <testcase name="WIRETRANS" classname="sample.WIRE_TRANSFER" time="0">
+    <skipped message="Error communicating with the remote browser. It may have died.&#10;Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [cf5f509ed68e327a38a9db9c026ade50, get {url=https://paytmpe.qagithub.xyz/}]&#10;Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 108.0.1462.54, ms:edgeOptions: {debuggerAddress: localhost:59142}, msedge: {msedgedriverVersion: 108.0.1462.54 (c2998c8c6617..., userDataDir: C:\Users\u\AppData\Local\Te...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59142/devtoo..., se:cdpVersion: 108.0.1462.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: cf5f509ed68e327a38a9db9c026ade50"/>
+  </testcase>
+  <testcase name="WIRETRANS" classname="sample.WIRE_TRANSFER" time="0">
+    <skipped message="Error communicating with the remote browser. It may have died.&#10;Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [cf5f509ed68e327a38a9db9c026ade50, get {url=https://paytmpe.qagithub.xyz/}]&#10;Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 108.0.1462.54, ms:edgeOptions: {debuggerAddress: localhost:59142}, msedge: {msedgedriverVersion: 108.0.1462.54 (c2998c8c6617..., userDataDir: C:\Users\u\AppData\Local\Te...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59142/devtoo..., se:cdpVersion: 108.0.1462.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: cf5f509ed68e327a38a9db9c026ade50"/>
+  </testcase>
+  <testcase name="WIRETRANS" classname="sample.WIRE_TRANSFER" time="0">
+    <skipped message="Error communicating with the remote browser. It may have died.&#10;Build info: version: &apos;4.6.0&apos;, revision: &apos;79f1c02ae20&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.5&apos;&#10;Driver info: org.openqa.selenium.edge.EdgeDriver&#10;Command: [cf5f509ed68e327a38a9db9c026ade50, get {url=https://paytmpe.qagithub.xyz/}]&#10;Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 108.0.1462.54, ms:edgeOptions: {debuggerAddress: localhost:59142}, msedge: {msedgedriverVersion: 108.0.1462.54 (c2998c8c6617..., userDataDir: C:\Users\u\AppData\Local\Te...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59142/devtoo..., se:cdpVersion: 108.0.1462.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: cf5f509ed68e327a38a9db9c026ade50"/>
+  </testcase>
+  <testcase name="logout" classname="sample.WIRE_TRANSFER" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="logout" classname="sample.WIRE_TRANSFER" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="logout" classname="sample.WIRE_TRANSFER" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="logout" classname="sample.WIRE_TRANSFER" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="logout" classname="sample.WIRE_TRANSFER" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="logout" classname="sample.WIRE_TRANSFER" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="logout" classname="sample.WIRE_TRANSFER" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="logout" classname="sample.WIRE_TRANSFER" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="Teardown" classname="sample.WIRE_TRANSFER" time="0">
+    <skipped/>
+  </testcase>
 </testsuite>

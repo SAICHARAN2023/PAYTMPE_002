@@ -1,4 +1,52 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 32, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 422.363 sec - in TestSuite
+Tests run: 95, Failures: 4, Errors: 0, Skipped: 87, Time elapsed: 83.629 sec <<< FAILURE! - in TestSuite
+logout(sample.DASHBOARD_01)  Time elapsed: 9.853 sec  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a class="nav-link dropdown-toggle" id="userDropdown" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">...</a> is not clickable at point (1231, 33). Other element would receive the click: <div id="preloader" style="opacity: 1;"></div>
+  (Session info: MicrosoftEdge=108.0.1462.54)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [04693afe81a99049b92470f82b650a51, clickElement {id=b6df7f14-01bb-4d75-9170-443f052a05b7}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 108.0.1462.54, ms:edgeOptions: {debuggerAddress: localhost:59016}, msedge: {msedgedriverVersion: 108.0.1462.54 (c2998c8c6617..., userDataDir: C:\Users\u\AppData\Local\Te...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59016/devtoo..., se:cdpVersion: 108.0.1462.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[EdgeDriver: msedge on WINDOWS (04693afe81a99049b92470f82b650a51)] -> xpath: (//a[@data-toggle='dropdown'])[2]]
+Session ID: 04693afe81a99049b92470f82b650a51
+
+login(sample.SEND_MONEY)  Time elapsed: 5.852 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: MicrosoftEdge=108.0.1462.54)
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [11bcfbbb533715ba7ba85cb4d1287e99, findElement {using=xpath, value=//a[.=' Sign In']}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 108.0.1462.54, ms:edgeOptions: {debuggerAddress: localhost:59058}, msedge: {msedgedriverVersion: 108.0.1462.54 (c2998c8c6617..., userDataDir: C:\Users\u\AppData\Local\Te...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59058/devtoo..., se:cdpVersion: 108.0.1462.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 11bcfbbb533715ba7ba85cb4d1287e99
+
+setup(sample.EXCHANGE_MONEY)  Time elapsed: 8.005 sec  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Error communicating with the remote browser. It may have died.
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [053a492d140a6a8a399c04b6a8fcfa3c, get {url=https://paytmpe.qagithub.xyz/}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 108.0.1462.54, ms:edgeOptions: {debuggerAddress: localhost:59112}, msedge: {msedgedriverVersion: 108.0.1462.54 (c2998c8c6617..., userDataDir: C:\Users\u\AppData\Local\Te...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59112/devtoo..., se:cdpVersion: 108.0.1462.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 053a492d140a6a8a399c04b6a8fcfa3c
+Caused by: java.io.UncheckedIOException: java.net.SocketException: Connection reset
+Caused by: java.net.SocketException: Connection reset
+
+setup(sample.WIRE_TRANSFER)  Time elapsed: 6.895 sec  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Error communicating with the remote browser. It may have died.
+Build info: version: '4.6.0', revision: '79f1c02ae20'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.5'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [cf5f509ed68e327a38a9db9c026ade50, get {url=https://paytmpe.qagithub.xyz/}]
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 108.0.1462.54, ms:edgeOptions: {debuggerAddress: localhost:59142}, msedge: {msedgedriverVersion: 108.0.1462.54 (c2998c8c6617..., userDataDir: C:\Users\u\AppData\Local\Te...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59142/devtoo..., se:cdpVersion: 108.0.1462.54, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cf5f509ed68e327a38a9db9c026ade50
+Caused by: java.io.UncheckedIOException: java.net.SocketException: Connection reset
+Caused by: java.net.SocketException: Connection reset
+
